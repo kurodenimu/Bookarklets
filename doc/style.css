@@ -1,0 +1,22 @@
+html {
+    background-color:aliceblue;
+    padding: 5px;
+}
+
+h1 {
+    border-left-style: solid;
+    border-left-width: 8px;
+    border-bottom-style: solid;
+    padding-left: 5px;
+}
+
+div.bookmarklet {
+    margin: 7px;
+    border-style: dotted;
+    padding-left: 5px;
+}
+
+div.bookmarklet h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
