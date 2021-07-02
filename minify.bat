@@ -34,6 +34,7 @@ echo ^<div class='bookmarklet'^>^<h2^>%TITLE%^</h2^>>> %HTML%
 echo |set /p="<a href='javascript: (function() {">> %HTML%
 type %OUTPATH%%MINFILE% >> %HTML%
 echo |set /p="})()'>%~n1</a>">> %HTML%
+echo |set /p="</div>">> %HTML%
 echo.>> %HTML%
 
 exit /b
