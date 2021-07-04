@@ -13,5 +13,8 @@
 <div class='bookmarklet'><h2>Twitter - SearchSinceTweet</h2>
 <a href='javascript: (function() {const user=location.pathname.split("/")[1],tweetid=location.pathname.split("/")[3];function getTweetDate(t){const e=new Date(parseInt(t/(1<<22)+1288834974657));return e.getFullYear()+"-"+(e.getMonth()+1).toString().padStart(2,"0")+"-"+e.getDate().toString().padStart(2,"0")+"_"+e.getHours().toString().padStart(2,"0")+":"+e.getMinutes().toString().padStart(2,"0")+":"+e.getSeconds().toString().padStart(2,"0")+"_JST"}location.href="https://twitter.com/search?q=from%3A"+user+"%20since%3A"+getTweetDate(tweetid)+"&src=typed_query&f=live";
 })()'>SearchSinceTweet</a></div>
+<div class='bookmarklet'><h2>Twitter - SearchUntilTweet</h2>
+<a href='javascript: (function() {const user=location.pathname.split("/")[1],tweetid=location.pathname.split("/")[3];function getTweetDate(t){const e=new Date(parseInt(t/(1<<22)+1288834974657));return e.getFullYear()+"-"+(e.getMonth()+1).toString().padStart(2,"0")+"-"+e.getDate().toString().padStart(2,"0")+"_"+e.getHours().toString().padStart(2,"0")+":"+e.getMinutes().toString().padStart(2,"0")+":"+e.getSeconds().toString().padStart(2,"0")+"_JST"}location.href="https://twitter.com/search?q=from%3A"+user+"%20until%3A"+getTweetDate(tweetid)+"&src=typed_query&f=live";
+})()'>SearchUntilTweet</a></div>
 </body>
 </html>
